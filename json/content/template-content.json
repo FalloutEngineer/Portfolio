@@ -1,0 +1,71 @@
+{
+    "slideNames": {
+        "main": "",
+        "about": "",
+        "portfolio": ""
+    },
+
+    "mainSlide": {
+        "bigHeading": "",
+        "smallHeading": ""
+    },
+
+    "aboutSlide": {
+        "heading": "",
+
+        "age": "",
+        "location": {
+            "heading": "",
+            "value": ""
+        },
+        "education": {
+            "heading": "",
+            "inProgress": "",
+            "value": ""
+        },
+
+        "skills": {
+            "html": {
+                "name": "",
+                "description": ""
+            },
+            "css": {
+                "name": "",
+                "description": ""
+            },
+            "js": {
+                "name": "",
+                "description": ""
+            },
+            "wordpress": {
+                "name": "",
+                "description": ""
+            }
+        },
+
+        "story": {
+            "heading": "",
+            "content": {
+                "first": "",
+                "second": ""
+            }
+        }
+    },
+
+    "portfolioSlide": {
+        "categories": {
+            "all": "",
+            "landing": "",
+            "multi-page": "",
+            "store": "",
+            "forum": "",
+            "portal": "",
+            "singlePage": "",
+            "SPA": ""
+        },
+
+        "site": {
+            "validation": ""
+        }
+    }
+}

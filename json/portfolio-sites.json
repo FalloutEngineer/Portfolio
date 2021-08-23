@@ -1,0 +1,44 @@
+{
+    "wooder": {
+        "name": "Wooder",
+        "type": "landing",
+        "link" : "/portfolio/wooder/index.html",
+        "image": "/img/portfolio/wooder-preview.png",
+        "validation": "#"
+    },
+    "webdev": {
+        "name": "WebDev",
+        "type": "landing",
+        "link": "/portfolio/WebDev/index.html",
+        "image": "/img/portfolio/webDev-preview.png",
+        "validation": "#"
+    },
+    "mmg": {
+        "name": "MMG",
+        "type": "landing",
+        "link": "/portfolio/mmg/index.html",
+        "image": "/img/portfolio/mmg-preview.png",
+        "validation": "#"
+    },
+    "hunger": {
+        "name": "Hunger",
+        "type": "landing",
+        "link": "/portfolio/hunger/index.html",
+        "image": "/img/portfolio/hunger-preview.png",
+        "validation": "#"
+    },
+    "freeLanding": {
+        "name": "Free Landing",
+        "type": "landing",
+        "link": "/portfolio/freeLanding/index.html",
+        "image": "/img/portfolio/freeLanding-preview.png",
+        "validation": "#"
+    },
+    "elena-email": {
+        "name": "Elena Email",
+        "type": "landing",
+        "link": "/portfolio/elena-email/index.html",
+        "image": "/img/portfolio/elena-preview.png",
+        "validation": "#"
+    }
+}
