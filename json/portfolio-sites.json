@@ -4,41 +4,41 @@
         "type": "landing",
         "link" : "/Portfolio/portfolio/wooder/index.html",
         "image": "/Portfolio/img/portfolio/wooder-preview.png",
-        "validation": "#"
+        "validation": "https://validator.w3.org/nu/?doc=https%3A%2F%2Ffalloutengineer.github.io%2FPortfolio%2Fportfolio%2Fwooder%2Findex.html"
     },
     "webdev": {
         "name": "WebDev",
         "type": "landing",
         "link": "/Portfolio/portfolio/WebDev/index.html",
         "image": "/Portfolio/img/portfolio/webDev-preview.png",
-        "validation": "#"
+        "validation": "https://validator.w3.org/nu/?doc=https%3A%2F%2Ffalloutengineer.github.io%2FPortfolio%2Fportfolio%2FWebDev%2Findex.html"
     },
     "mmg": {
         "name": "MMG",
         "type": "landing",
         "link": "/Portfolio/portfolio/mmg/index.html",
         "image": "/Portfolio/img/portfolio/mmg-preview.png",
-        "validation": "#"
+        "validation": "https://validator.w3.org/nu/?doc=https%3A%2F%2Ffalloutengineer.github.io%2FPortfolio%2Fportfolio%2Fmmg%2Findex.html"
     },
     "hunger": {
         "name": "Hunger",
         "type": "landing",
         "link": "/Portfolio/portfolio/hunger/index.html",
         "image": "/Portfolio/img/portfolio/hunger-preview.png",
-        "validation": "#"
+        "validation": "https://validator.w3.org/nu/?doc=https%3A%2F%2Ffalloutengineer.github.io%2FPortfolio%2Fportfolio%2Fhunger%2Findex.html"
     },
     "freeLanding": {
         "name": "Free Landing",
         "type": "landing",
         "link": "/Portfolio/portfolio/freeLanding/index.html",
         "image": "/Portfolio/img/portfolio/freeLanding-preview.png",
-        "validation": "#"
+        "validation": "https://validator.w3.org/nu/?doc=https%3A%2F%2Ffalloutengineer.github.io%2FPortfolio%2Fportfolio%2FfreeLanding%2Findex.html"
     },
     "elena-email": {
         "name": "Elena Email",
         "type": "landing",
         "link": "/Portfolio/portfolio/elena-email/index.html",
         "image": "/Portfolio/img/portfolio/elena-preview.png",
-        "validation": "#"
+        "validation": "https://validator.w3.org/nu/?doc=https%3A%2F%2Ffalloutengineer.github.io%2FPortfolio%2Fportfolio%2Felena-email%2Findex.html"
     }
 }
