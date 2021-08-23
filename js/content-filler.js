@@ -198,6 +198,7 @@
 
             siteElements.imageWrapper.classList.add('portfolio__item-image-wrapper');
             siteElements.imageWrapper.href = sites[site].link;
+            siteElements.imageWrapper.target = '_blank';
             
             siteElements.imageWrapper.appendChild(siteElements.image);
             siteElements.image.classList.add('portfolio__item-image');
@@ -209,6 +210,7 @@
             siteElements.validation.classList.add('portfolio__item-validation');
             siteElements.validation.href = sites[site].validation;
             siteElements.validation.innerHTML = "Validation";
+            siteElements.validation.target = '_blank'
 
             pageModel.portfolioSlide.filter.appendChild(siteNode);
         }
@@ -275,6 +277,7 @@
                 pageModel.aboutSlide.shortInfo.education.value.appendChild(educationLink);
                 educationLink.innerHTML = localization.aboutSlide.education.value;
                 educationLink.id = "link-KSU";
+                educationLink.target = "_blank";
             }
 
             function fillSkills(){
