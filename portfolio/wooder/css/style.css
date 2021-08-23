@@ -1539,7 +1539,7 @@ body::-webkit-scrollbar-thumb {
 }
 .design__container {
   padding-top: 20vh;
-  padding-bottom: 200vh;
+  padding-bottom: 20vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
