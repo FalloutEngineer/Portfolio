@@ -305,6 +305,7 @@ body, .wrapper, html, .page {
 body {
   color: black;
   font-size: 14px;
+  overflow: hidden;
 }
 body._locked {
   overflow: hidden;
@@ -356,11 +357,13 @@ body._locked {
   -webkit-transform: translateY(0%);
       -ms-transform: translateY(0%);
           transform: translateY(0%);
+  overflow: hidden;
 }
 .pace-background._done {
   -webkit-transform: translateY(-100%);
       -ms-transform: translateY(-100%);
           transform: translateY(-100%);
+  overflow: hidden;
 }
 
 .swiper-container {
