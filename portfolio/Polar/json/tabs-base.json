@@ -1,0 +1,140 @@
+{
+    "ice cream": {
+        "Brown Bread": {
+            "description": "Bon Au Pain is a pioneer in the healthy fast food scene.Bon Au Pain is a pioneer in the healthy fast food scene.Bon Au Pain is a pioneer in the healthy fast food scene.",
+            "discountPrice": "19.55",
+            "originalPrice": "22.55",
+            "image": "brown-bread.png",
+            "buyLink": "#"
+        },
+        "Cayenne chocolate": {
+            "description": "Bon Au Pain is a pioneer in the healthy fast food scene.Bon Au Pain is a pioneer in the healthy fast food scene.Bon Au Pain is a pioneer in the healthy fast food scene.",
+            "discountPrice": "19.55",
+            "originalPrice": "22.55",
+            "image": "cayenne-chocolate.png",
+            "buyLink": "#"
+        },
+        "Sweet corn": {
+            "description": "Bon Au Pain is a pioneer in the healthy fast food scene.Bon Au Pain is a pioneer in the healthy fast food scene.Bon Au Pain is a pioneer in the healthy fast food scene.",
+            "discountPrice": "19.55",
+            "originalPrice": "22.55",
+            "image": "sweet-corn.png",
+            "buyLink": "#"
+        }
+    },
+    "cayenne chocolate":{
+        "Cayenne Chocolate red": {
+            "description": "Bon Au Pain is a pioneer in the healthy fast food scene.Bon Au Pain is a pioneer in the healthy fast food scene.Bon Au Pain is a pioneer in the healthy fast food scene.",
+            "discountPrice": "19.55",
+            "originalPrice": "22.55",
+            "image": "brown-bread.png",
+            "buyLink": "#"
+        },
+        "Cayenne Chocolate green": {
+            "description": "Bon Au Pain is a pioneer in the healthy fast food scene.Bon Au Pain is a pioneer in the healthy fast food scene.Bon Au Pain is a pioneer in the healthy fast food scene.",
+            "discountPrice": "19.55",
+            "originalPrice": "22.55",
+            "image": "cayenne-chocolate.png",
+            "buyLink": "#"
+        },
+        "Cayenne Chocolate blue": {
+            "description": "Bon Au Pain is a pioneer in the healthy fast food scene.Bon Au Pain is a pioneer in the healthy fast food scene.Bon Au Pain is a pioneer in the healthy fast food scene.",
+            "discountPrice": "19.55",
+            "originalPrice": "22.55",
+            "image": "sweet-corn.png",
+            "buyLink": "#"
+        }
+    },
+    "cake batter":{
+        "Cake Batter red": {
+            "description": "Bon Au Pain is a pioneer in the healthy fast food scene.Bon Au Pain is a pioneer in the healthy fast food scene.Bon Au Pain is a pioneer in the healthy fast food scene.",
+            "discountPrice": "19.55",
+            "originalPrice": "22.55",
+            "image": "brown-bread.png",
+            "buyLink": "#"
+        },
+        "Cake Batter green": {
+            "description": "Bon Au Pain is a pioneer in the healthy fast food scene.Bon Au Pain is a pioneer in the healthy fast food scene.Bon Au Pain is a pioneer in the healthy fast food scene.",
+            "discountPrice": "19.55",
+            "originalPrice": "22.55",
+            "image": "cayenne-chocolate.png",
+            "buyLink": "#"
+        },
+        "Cake Batter blue": {
+            "description": "Bon Au Pain is a pioneer in the healthy fast food scene.Bon Au Pain is a pioneer in the healthy fast food scene.Bon Au Pain is a pioneer in the healthy fast food scene.",
+            "discountPrice": "19.55",
+            "originalPrice": "22.55",
+            "image": "sweet-corn.png",
+            "buyLink": "#"
+        }
+    },
+    "candy cane":{
+        "Candy Cane red": {
+            "description": "Bon Au Pain is a pioneer in the healthy fast food scene.Bon Au Pain is a pioneer in the healthy fast food scene.Bon Au Pain is a pioneer in the healthy fast food scene.",
+            "discountPrice": "19.55",
+            "originalPrice": "22.55",
+            "image": "brown-bread.png",
+            "buyLink": "#"
+        },
+        "Candy Cane green": {
+            "description": "Bon Au Pain is a pioneer in the healthy fast food scene.Bon Au Pain is a pioneer in the healthy fast food scene.Bon Au Pain is a pioneer in the healthy fast food scene.",
+            "discountPrice": "19.55",
+            "originalPrice": "22.55",
+            "image": "cayenne-chocolate.png",
+            "buyLink": "#"
+        },
+        "Candy Cane blue": {
+            "description": "Bon Au Pain is a pioneer in the healthy fast food scene.Bon Au Pain is a pioneer in the healthy fast food scene.Bon Au Pain is a pioneer in the healthy fast food scene.",
+            "discountPrice": "19.55",
+            "originalPrice": "22.55",
+            "image": "sweet-corn.png",
+            "buyLink": "#"
+        }
+    },
+    "platters":{
+        "Platters red": {
+            "description": "Bon Au Pain is a pioneer in the healthy fast food scene.Bon Au Pain is a pioneer in the healthy fast food scene.Bon Au Pain is a pioneer in the healthy fast food scene.",
+            "discountPrice": "19.55",
+            "originalPrice": "22.55",
+            "image": "brown-bread.png",
+            "buyLink": "#"
+        },
+        "Platters green": {
+            "description": "Bon Au Pain is a pioneer in the healthy fast food scene.Bon Au Pain is a pioneer in the healthy fast food scene.Bon Au Pain is a pioneer in the healthy fast food scene.",
+            "discountPrice": "19.55",
+            "originalPrice": "22.55",
+            "image": "cayenne-chocolate.png",
+            "buyLink": "#"
+        },
+        "Platters blue": {
+            "description": "Bon Au Pain is a pioneer in the healthy fast food scene.Bon Au Pain is a pioneer in the healthy fast food scene.Bon Au Pain is a pioneer in the healthy fast food scene.",
+            "discountPrice": "19.55",
+            "originalPrice": "22.55",
+            "image": "sweet-corn.png",
+            "buyLink": "#"
+        }
+    },
+    "dessert":{
+        "Dessert red": {
+            "description": "Bon Au Pain is a pioneer in the healthy fast food scene.Bon Au Pain is a pioneer in the healthy fast food scene.Bon Au Pain is a pioneer in the healthy fast food scene.",
+            "discountPrice": "19.55",
+            "originalPrice": "22.55",
+            "image": "brown-bread.png",
+            "buyLink": "#"
+        },
+        "Dessert green": {
+            "description": "Bon Au Pain is a pioneer in the healthy fast food scene.Bon Au Pain is a pioneer in the healthy fast food scene.Bon Au Pain is a pioneer in the healthy fast food scene.",
+            "discountPrice": "19.55",
+            "originalPrice": "22.55",
+            "image": "cayenne-chocolate.png",
+            "buyLink": "#"
+        },
+        "Dessert blue": {
+            "description": "Bon Au Pain is a pioneer in the healthy fast food scene.Bon Au Pain is a pioneer in the healthy fast food scene.Bon Au Pain is a pioneer in the healthy fast food scene.",
+            "discountPrice": "19.55",
+            "originalPrice": "22.55",
+            "image": "sweet-corn.png",
+            "buyLink": "#"
+        }
+    }
+}

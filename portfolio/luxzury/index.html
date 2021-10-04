@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luxzury</title>
+    <link rel="stylesheet" href="css/style.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700;800&family=Montserrat:wght@600&family=Roboto:wght@500;700&display=swap" rel="stylesheet">
+
+    <link
+        rel="stylesheet"
+        href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+    />
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <header class="header">
+    <div class="header__container _container">
+        <a href="#" class="header__logo-wrapper">
+            <span class="header__logo-text">
+                Luxzury.
+            </span>
+        </a>
+        <div class="header__right">
+            <nav class="header__nav">
+                <ul class="header__nav-list">
+                    <li class="header__nav-item"><a href="#home" class="header__nav-link">Home</a></li>
+                    <li class="header__nav-item"><a href="#services" class="header__nav-link">Services</a></li>
+                    <li class="header__nav-item"><a href="#facilities" class="header__nav-link">Facilities</a></li>
+                    <li class="header__nav-item"><a href="#info" class="header__nav-link">Info</a></li>
+                </ul>
+            </nav>
+            <button class="header__book-now">
+                Book Now
+            </button>
+        </div>
+    </div>
+    <burger class="header__burger-button">
+        <span></span>
+        <span></span>
+        <span></span>
+    </burger>
+</header>
+
+        <main class="page">
+
+            <section class="hero">
+                <div class="hero__container _container">
+                    <div class="hero__text">
+                        <h2 class="hero__sub-heading">
+                            #1  Best Hotel In-Town
+                        </h2>
+                        <h1 class="hero__heading">
+                            The Most
+                            <span class="hero__heading-highlighted">
+                                Luxurious <br> Hotel
+                            </span>
+                            In-Town!
+                        </h1>
+                        <p class="hero__paragraph">
+                            Luxzury`s the hotel based in Wakanda, 59th street East Waka. This hotel has been around since 1890 and become one of the best hotels in town.
+                        </p>
+                        <form class="hero__check-wrapper">
+                            <div class="hero__check-item-container">
+                                <div class="hero__check-item">
+                                    <h3 class="hero__check-heading">Person</h3>
+                                    <p class="hero__check-secondary">
+                                        2 Adult - 3 Child
+                                    </p>
+                                </div>
+                                <div class="hero__check-item">
+                                    <h3 class="hero__check-heading">Check-in</h3>
+                                    <select name="checkIn" id="" class="hero__select">
+                                        <option value="16 jun 9pm">16 Jun 9PM</option>
+                                        <option value="16 jun 9pm">17 Jun 9PM</option>
+                                        <option value="16 jun 9pm">18 Jun 9PM</option>
+                                    </select>
+                                </div>
+                                <div class="hero__check-item">
+                                    <h3 class="hero__check-heading">Check-out</h3>
+                                    <select name="checkOut" id="" class="hero__select">
+                                        <option value="16 jun 9pm">16 Jun 9PM</option>
+                                        <option value="16 jun 9pm">17 Jun 9PM</option>
+                                        <option value="16 jun 9pm">18 Jun 9PM</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <submit class="hero__form-submit">
+                                Check
+                            </submit>
+                        </form>
+                    </div>
+                </div>
+                
+                <div class="hero__image-wrapper">
+                    <img src="img/hero/hotel.jfif" alt="" class="hero__image">
+                </div>
+            </section>
+
+            <section class="services">
+                <div class="services__container _container">
+                    <h2 class="services__heading">
+                        We Provide The Best Services <br>
+                        for Our Guests
+                    </h2>
+                    <div class="services__grid">
+                        <div class="services__item">
+                            <span class="services__number">
+                                1
+                            </span>
+                            <h3 class="services__item-heading">
+                                Hygienic Room
+                            </h3>
+                            <p class="services__item-description">
+                                We do cleaning every time for the convenience of hotel guests, and we have adequate cleaning facilities
+                            </p>
+                        </div>
+                        <div class="services__item">
+                            <span class="services__number">
+                                2
+                            </span>
+                            <h3 class="services__item-heading">
+                                High Security
+                            </h3>
+                            <p class="services__item-description">
+                                Security system at this hotel is very guaranteed and has a recognized security certificate.
+                            </p>
+                        </div>
+                        <div class="services__item">
+                            <span class="services__number">
+                                3
+                            </span>
+                            <h3 class="services__item-heading">
+                                Delicious Food
+                            </h3>
+                            <p class="services__item-description">
+                                We strive to provide the best food from the world's selected chefs, as well as hygienic ingredients.
+                            </p>
+                        </div>
+                        <div class="services__item">
+                            <span class="services__number">
+                                4
+                            </span>
+                            <h3 class="services__item-heading">
+                                Quick Service
+                            </h3>
+                            <p class="services__item-description">
+                                We have many qualified employees who are ready to serve you whenever you need.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="facilities">
+                <div class="facilities__container _container">
+                    <div class="facilities__upper">
+                        <h2 class="facilities__heading">
+                            Our Facilities
+                        </h2>
+                        <figure class="facilities__line"></figure>
+                        <div class="facilities__nav-buttons">
+                            <button class="facilities__nav-button facilities__nav-button-prev slider-button slider-prev">
+                                <img src="img/arrow.svg" alt="prev" class="facilities__button-icon _prev">
+                            </button>
+                            <button class="facilities__nav-button facilities__nav-button-next slider-button slider-next">
+                                <img src="img/arrow.svg" alt="next" class="facilities__button-icon _next">
+                            </button>
+                        </div>
+                    </div>
+                    <div class="facilities__bottom">
+                        <div class="facilities__left">
+                            <ul class="facilities__buttons-list">
+                                <li class="facilities__button-item">
+                                    <button class="facilities__button">
+                                        Bedroom
+                                    </button>
+                                </li>
+                                <li class="facilities__button-item">
+                                    <button class="facilities__button">
+                                        Workspace
+                                    </button>
+                                </li>
+                                <li class="facilities__button-item">
+                                    <button class="facilities__button">
+                                        Meeting Room
+                                    </button>
+                                </li>
+                                <li class="facilities__button-item">
+                                    <button class="facilities__button">
+                                        Restaurant
+                                    </button>
+                                </li>
+                                <li class="facilities__button-item">
+                                    <button class="facilities__button">
+                                        Swimming Pool
+                                    </button>
+                                </li>
+                                <li class="facilities__button-item">
+                                    <button class="facilities__button">
+                                        Coffee Shop
+                                    </button>
+                                </li>
+                                <li class="facilities__button-item">
+                                    <button class="facilities__button">
+                                        Parking Lot
+                                    </button>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="facilities__swiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide facilities__slide">
+                                    <img src="img/facilities/1.jfif" alt="room" class="facilities__image">
+                                    <div class="facilities__text-group">
+                                        <h3 class="facilities__slide-heading">
+                                            Tinylux Room
+                                        </h3>
+                                        <div class="facilities__price">
+                                            <span class="facilities__price-number">
+                                                $2789
+                                            </span>
+                                            <span class="facilities__price-text">
+                                                per-night
+                                            </span>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                                <div class="swiper-slide facilities__slide"">
+                                    <img src="img/facilities/2.jfif" alt="room" class="facilities__image">
+                                    <div class="facilities__text-group">
+                                        <h3 class="facilities__slide-heading">
+                                            Massvelux Room
+                                        </h3>
+                                        <div class="facilities__price">
+                                            <span class="facilities__price-number">
+                                                $2789
+                                            </span>
+                                            <span class="facilities__price-text">
+                                                per-night
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide facilities__slide"">
+                                    <img src="img/facilities/3.jfif" alt="room" class="facilities__image">
+                                    <div class="facilities__text-group">
+                                        <h3 class="facilities__slide-heading">
+                                            Rassvelux Room
+                                        </h3>
+                                        <div class="facilities__price">
+                                            <span class="facilities__price-number">
+                                                $2789
+                                            </span>
+                                            <span class="facilities__price-text">
+                                                per-night
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </section>
+
+            <section class="feedback">
+                <div class="feedback__container _container">
+                    <h2 class="feedback__heading">
+                        See What Our Guest Say
+                    </h2>
+                    <div class="feedback__slider">
+                        <div class="feedback__wrapper swiper-wrapper">
+                            <div class="feedback__slide swiper-slide">
+                                <img src="img/feedback/1.jfif" alt="" class="feedback__slide-image">
+                                <div class="feedback__slide-content">
+                                    <figure class="feedback__slide-quote">
+                                        “
+                                    </figure>
+                                    <p class="feedback__slide-text">
+                                        This place was incredible, and services of the hotel was great. Thanks!
+                                    </p>
+                                    <p class="feedback__slide-name">
+                                        Mary
+                                    </p>
+                                    <p class="feedback__slide-role">
+                                        Traveller
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="feedback__slide swiper-slide">
+                                <img src="img/feedback/2.jfif" alt="" class="feedback__slide-image">
+                                <div class="feedback__slide-content">
+                                    <figure class="feedback__slide-quote">
+                                        "
+                                    </figure>
+                                    <p class="feedback__slide-text">
+                                        This place was incredible, and services of the hotel was great. Thanks!
+                                    </p>
+                                    <p class="feedback__slide-name">
+                                        Ann
+                                    </p>
+                                    <p class="feedback__slide-role">
+                                        Businesswoman
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="feedback__slide swiper-slide">
+                                <img src="img/feedback/3.jfif" alt="" class="feedback__slide-image">
+                                <div class="feedback__slide-content">
+                                    <figure class="feedback__slide-quote">
+                                        "
+                                    </figure>
+                                    <p class="feedback__slide-text">
+                                        This place was incredible, and services of the hotel was great. Thanks!
+                                    </p>
+                                    <p class="feedback__slide-name">
+                                        Leonardo
+                                    </p>
+                                    <p class="feedback__slide-role">
+                                        Traveller
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="feedback__bottom">
+                    <figure class="feedback__left-line feedback__line"></figure>
+                    <div class="feedback__controls-wrapper">
+                        <button class="feedback__control-prev feedback__slider-button slider-prev">
+                            <img src="img/arrow.svg" alt="" class="feedback__icon _prev">
+                        </button>
+                        <button class="feedback__control-next feedback__slider-button slider-next">
+                            <img src="img/arrow.svg" alt="" class="feedback__icon _next">
+                        </button>
+                    </div>
+                    <figure class="feedback__right-line feedback__line"></figure>
+                </div>
+            </section>
+
+            <section class="subscribe">
+                <div class="subscribe__container _container">
+                    <h2 class="subscribe__heading">
+                        Subscribe to <br>
+                        Get Special Offer!
+                    </h2>
+                    <p class="subscribe__description">
+                        Don`t miss this oportunity! Subscribe now to get the special offer 
+                        and awesome newsletter!
+                    </p>
+                    <form action="email" class="subscribe__form">
+                        <input type="email" required name="subscibe" placeholder="Drop your email address" class="subscribe__email">
+                        <button type="submit" class="subscribe__submit">
+                            Subscribe
+                        </button>
+                    </form>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+    <div class="footer__container _container">
+        <div class="footer__left">
+            <a href="tel:+00823424" class="footer__phone">00823424</a>
+            <a href="mailto:info@luxzury.id" class="footer__email">info@luxzury.id</a>
+        </div>
+        <div class="footer__right">
+            <a href="www.luxzury.com" class="footer__link">www.luxzury.com</a>
+        </div>
+    </div>
+</footer>
+    </div>
+
+    
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+<script src="js/burger.js"></script>
+<script src="js/scroll-not-zero.js"></script>
+<script src="js/swiper.js"></script>
+<script src="js/webp.js"></script>
+</body>
+</html>
