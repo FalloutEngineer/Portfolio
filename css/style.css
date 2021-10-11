@@ -880,7 +880,7 @@ body._locked {
       -ms-flex-align: start;
           align-items: flex-start;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr;
+  grid-template-rows: repeat(auto-fit, minmax(100px, 1fr));
   gap: 2%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
