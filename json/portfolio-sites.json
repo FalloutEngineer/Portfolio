@@ -40,5 +40,68 @@
         "link": "/Portfolio/portfolio/elena-email/index.html",
         "image": "/Portfolio/img/portfolio/elena-preview.png",
         "validation": "https://validator.w3.org/nu/?doc=https%3A%2F%2Ffalloutengineer.github.io%2FPortfolio%2Fportfolio%2Felena-email%2Findex.html"
+    },
+    "arshakir": {
+        "name": "ARShakir",
+        "type": "landing",
+        "link": "/Portfolio/portfolio/ARShakir/index.html",
+        "image": "/Portfolio/img/portfolio/arshakir-preview.png",
+        "validation": "https://validator.w3.org/nu/?doc=https%3A%2F%2Ffalloutengineer.github.io%2FPortfolio%2Fportfolio%2Felena-email%2Findex.html"
+    },
+    "homeid": {
+        "name": "HomeID",
+        "type": "landing",
+        "link": "/Portfolio/portfolio/homeID/index.html",
+        "image": "/Portfolio/img/portfolio/homeid-preview.png",
+        "validation": "https://validator.w3.org/nu/?doc=https%3A%2F%2Ffalloutengineer.github.io%2FPortfolio%2Fportfolio%2Felena-email%2Findex.html"
+    },
+    "luxzury": {
+        "name": "Luxzury",
+        "type": "landing",
+        "link": "/Portfolio/portfolio/luxzury/index.html",
+        "image": "/Portfolio/img/portfolio/luxzury-preview.png",
+        "validation": "https://validator.w3.org/nu/?doc=https%3A%2F%2Ffalloutengineer.github.io%2FPortfolio%2Fportfolio%2Felena-email%2Findex.html"
+    },
+    "polar": {
+        "name": "Polar",
+        "type": "landing",
+        "link": "/Portfolio/portfolio/Polar/index.html",
+        "image": "/Portfolio/img/portfolio/polar-preview.png",
+        "validation": "https://validator.w3.org/nu/?doc=https%3A%2F%2Ffalloutengineer.github.io%2FPortfolio%2Fportfolio%2Felena-email%2Findex.html"
+    },
+    "rgym": {
+        "name": "rGym",
+        "type": "landing",
+        "link": "/Portfolio/portfolio/rGym/index.html",
+        "image": "/Portfolio/img/portfolio/rgym-preview.png",
+        "validation": "https://validator.w3.org/nu/?doc=https%3A%2F%2Ffalloutengineer.github.io%2FPortfolio%2Fportfolio%2Felena-email%2Findex.html"
+    },
+    "vrbszone": {
+        "name": "vrbsZone",
+        "type": "landing",
+        "link": "/Portfolio/portfolio/vrbsZone/index.html",
+        "image": "/Portfolio/img/portfolio/vrbszone-preview.png",
+        "validation": "https://validator.w3.org/nu/?doc=https%3A%2F%2Ffalloutengineer.github.io%2FPortfolio%2Fportfolio%2Felena-email%2Findex.html"
+    },
+    "xpress": {
+        "name": "Xpress",
+        "type": "landing",
+        "link": "/Portfolio/portfolio/xpress/index.html",
+        "image": "/Portfolio/img/portfolio/xpress-preview.png",
+        "validation": "https://validator.w3.org/nu/?doc=https%3A%2F%2Ffalloutengineer.github.io%2FPortfolio%2Fportfolio%2Felena-email%2Findex.html"
+    },
+    "night-trips": {
+        "name": "Night Trips",
+        "type": "landing",
+        "link": "/Portfolio/portfolio/NightTrips/index.html",
+        "image": "/Portfolio/img/portfolio/night-trips-preview.png",
+        "validation": "https://validator.w3.org/nu/?doc=https%3A%2F%2Ffalloutengineer.github.io%2FPortfolio%2Fportfolio%2Felena-email%2Findex.html"
+    },
+    "shopiy": {
+        "name": "Shopiy",
+        "type": "landing",
+        "link": "/Portfolio/portfolio/shopiy/index.html",
+        "image": "/Portfolio/img/portfolio/shopiy-preview.png",
+        "validation": "https://validator.w3.org/nu/?doc=https%3A%2F%2Ffalloutengineer.github.io%2FPortfolio%2Fportfolio%2Felena-email%2Findex.html"
     }
 }
