@@ -23,7 +23,7 @@
 @font-face {
   font-family: "icons";
   font-display: swap;
-  src: url(../fonts/icons.woff2#icons) format("woff2");
+  src: url(../fonts/icons.ttf) format("woff"), url(../fonts/icons.woff2#icons) format("woff2");
   font-weight: normal;
   font-style: normal;
   font-display: block;

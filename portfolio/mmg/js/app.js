@@ -73,7 +73,7 @@
     })
 
     async function getNews(){
-        return fetch('./json/news.json').then(response => {
+        return fetch('../json/news.json').then(response => {
             return response.json();
         })
         .catch(error => {

@@ -574,7 +574,7 @@ table {
 @font-face {
   font-family: "icons";
   font-display: swap;
-  src: url(../fonts/icons.woff2#icons) format("woff2");
+  src: url(../fonts/icons.ttf) format("ttf"), url(../fonts/icons.woff2#icons) format("woff2");
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -1528,3 +1528,17 @@ body._locked {
   border: none;
   outline: none;
 }
+
+.webp .hero{ background-image: url(../img/header/header-bg.webp); }
+
+@media (max-width: 940.98px), (max-height: 550px), (max-aspect-ratio: 12/8){
+  .webp .hero{ background-image: url(../img/header/header-bg2.webp); }
+}
+
+.webp .about{ background-image: url(../img/about/bg.webp); }
+
+.webp .get-started{ background-image: url(../img/get-started/lower-bg.webp); }
+
+.webp .get-started::after{ background-image: url(../img/get-started/upper-bg.webp); }
+
+.webp .contact-us{ background-image: url(../img/contact/bg.webp); }

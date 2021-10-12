@@ -181,8 +181,6 @@
             let siteElements = {
                 heading: document.createElement('h3'),
                 imageWrapper: document.createElement('a'),
-                picture: document.createElement('picture'),
-                source: document.createElement('source'),
                 image: document.createElement('img'),
                 type: document.createElement('p'),
                 validation: document.createElement('a'),
@@ -201,14 +199,8 @@
             siteElements.imageWrapper.classList.add('portfolio__item-image-wrapper');
             siteElements.imageWrapper.href = sites[site].link;
             siteElements.imageWrapper.target = '_blank';
-
-            siteElements.source.srcset = sites[site].image.replace(".png", '.webp');
-            siteElements.source.type = "image/webp";
-
-            siteElements.picture.appendChild(siteElements.source);
-            siteElements.picture.appendChild(siteElements.image);
             
-            siteElements.imageWrapper.appendChild(siteElements.picture);
+            siteElements.imageWrapper.appendChild(siteElements.image);
             siteElements.image.classList.add('portfolio__item-image');
             siteElements.image.src = sites[site].image;
 

@@ -16,7 +16,7 @@
 @font-face {
   font-family: "icons";
   font-display: swap;
-  src: url(../fonts/icons.ttf) format("woff"), url(../fonts/icons.woff2#icons) format("woff2");
+  src: url(../fonts/icons.ttf) format("ttf"), url(../fonts/icons.woff2#icons) format("woff2");
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -611,6 +611,24 @@ body {
         -ms-flex-positive: 1;
             flex-grow: 1;
   }
+  .nav__list._not-top .nav__link-wrapper {
+    padding-bottom: 0;
+    padding-top: 0;
+    max-height: 40px;
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
   .nav__list._not-top .nav__link {
     background-color: rgba(0, 0, 0, 0);
     max-height: 40px;
@@ -630,6 +648,21 @@ body {
     padding-bottom: 0;
     padding-top: 0;
   }
+}
+.nav__link-wrapper {
+  padding: 40px 5%;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Open Sans";
+  font-weight: bold;
+  font-size: 12px;
+  color: white;
+  text-align: center;
+  max-width: 100px;
+  width: 100%;
+  -webkit-transition: text-shadow 0.2s;
+  -o-transition: text-shadow 0.2s;
+  transition: text-shadow 0.2s;
 }
 .nav__link {
   padding: 40px 5%;
