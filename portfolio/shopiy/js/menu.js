@@ -1,7 +1,5 @@
 (
     function(){
-        // const header = document.querySelector('.header')
-        // const notTop = '_not-top'
 
         const pageModel = {
             header: document.querySelector('.header'),

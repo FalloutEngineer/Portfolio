@@ -1,4 +1,5 @@
 function store(){
+    let buttonsElement = document.getElementsByClassName('latest-works__filter')[0];
     let buttonPrefix = "latest-works__filter_"
 
     let categoriesPrefix = "latest-works_"
@@ -17,8 +18,6 @@ function store(){
         ui: document.getElementById(buttonPrefix + 'ui'),
         mockups: document.getElementById(buttonPrefix + 'mockups')
     }
-
-    console.log(buttons.mockups);
 
     buttons.all.onclick = () => {
         all_items.forEach(element => element.classList.remove('hide'));
