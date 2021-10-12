@@ -1006,6 +1006,10 @@ select option:disabled {
 .book__submit {
   grid-column: span 2;
 }
+.book__schedule {
+  padding-right: 15px;
+  padding-left: 15px;
+}
 .book__schedule-wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1281,6 +1285,8 @@ select option:disabled {
           align-items: center;
   font-family: "Open Sans";
   font-size: 12px;
+  padding-right: 15px;
+  padding-left: 15px;
 }
 .private-events__contact p, .private-events__contact a {
   color: rgba(255, 255, 255, 0.5);
@@ -1300,10 +1306,17 @@ select option:disabled {
   display: flex;
 }
 .photos__image {
-  -webkit-box-flex: 1;
-      -ms-flex-positive: 1;
-          flex-grow: 1;
-  width: 50%;
+  height: 100%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.photos__image-wrapper {
+  width: 25vw;
+  height: 25vw;
 }
 .photos__group {
   display: -webkit-box;
@@ -1313,10 +1326,13 @@ select option:disabled {
 }
 @media (max-width: 767.98px) {
   .photos {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+  }
+  .photos__image-wrapper {
+    width: 50vw;
+    height: 50vw;
   }
   .photos__group {
     width: 100%;
