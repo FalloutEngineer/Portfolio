@@ -1,4 +1,11 @@
 {
+    "aiman": {
+        "name": "AI.MAN",
+        "type": "landing",
+        "link": "/Portfolio/portfolio/aiman/index.html",
+        "image": "/Portfolio/img/portfolio/aiman.png",
+        "validation": "https://validator.w3.org/nu/?doc=https%3A%2F%2Ffalloutengineer.github.io%2FPortfolio%2Fportfolio%2Faiman%2Findex.html"
+    },
     "night-trips": {
         "name": "Night Trips",
         "type": "landing",
