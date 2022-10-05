@@ -6,6 +6,20 @@
         "image": "/Portfolio/img/portfolio/aiman-preview.png",
         "validation": "https://validator.w3.org/nu/?doc=https%3A%2F%2Ffalloutengineer.github.io%2FPortfolio%2Fportfolio%2Faiman%2Findex.html"
     },
+    "GoRent": {
+        "name": "GoRent",
+        "type": "landing",
+        "link": "/Portfolio/portfolio/GoRent/index.html",
+        "image": "/Portfolio/img/portfolio/GoRent-preview.png",
+        "validation": "https://validator.w3.org/nu/?doc=https%3A%2F%2Ffalloutengineer.github.io%2FPortfolio%2Fportfolio%2Fgorent%2Findex.html"
+    },
+    "fastdelivery": {
+        "name": "Fast Delivery",
+        "type": "landing",
+        "link": "/Portfolio/portfolio/fast-delivery/index.html",
+        "image": "/Portfolio/img/portfolio/fastDelivery-preview.png",
+        "validation": "https://validator.w3.org/nu/?doc=https%3A%2F%2Ffalloutengineer.github.io%2FPortfolio%2Fportfolio%2Ffast-delivery%2Findex.html"
+    },
     "night-trips": {
         "name": "Night Trips",
         "type": "landing",
