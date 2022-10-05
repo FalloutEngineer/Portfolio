@@ -1142,8 +1142,6 @@ body, html {
 }
 .hero__domestic-radio:checked + label {
   background-color: #4832DC;
-}
-.hero__domestic-radio:checked + label p {
   color: white;
 }
 .hero__domestic-label {
@@ -1173,19 +1171,15 @@ body, html {
   border-radius: 10px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-}
-.hero__domestic-icon {
-  pointer-events: none;
-}
-.hero__domestic-text {
-  -webkit-transition: all 0.3s ease;
-  -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
   -webkit-touch-callout: none;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+}
+.hero__domestic-icon {
+  pointer-events: none;
 }
 .hero__domestic-submit {
   font-family: "Poppins";
