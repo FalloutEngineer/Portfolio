@@ -880,8 +880,9 @@ body._locked {
       -ms-flex-align: start;
           align-items: flex-start;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: repeat(auto-fit, minmax(100px, 1fr));
-  gap: 2%;
+  /* grid-template-rows: repeat(auto-fit, minmax(100px, 1fr)); */
+  /* gap: 2%; */
+  gap: 50px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -976,6 +977,9 @@ body._locked {
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+.portfolio__item-image-wrapper picture {
+  min-width: 100%;
 }
 .portfolio__item-image {
   width: 100%;
