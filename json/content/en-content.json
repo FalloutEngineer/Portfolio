@@ -1,71 +1,71 @@
 {
-    "slideNames": {
-        "main": "Main",
-        "about": "About",
-        "portfolio": "Portfolio"
+  "slideNames": {
+    "main": "Main",
+    "about": "About",
+    "portfolio": "Portfolio"
+  },
+
+  "mainSlide": {
+    "bigHeading": "Vladyslav Voichenko",
+    "smallHeading": "Web Developer"
+  },
+
+  "aboutSlide": {
+    "heading": "About me",
+
+    "age": "Age",
+    "location": {
+      "heading": "Location",
+      "value": "Ukraine, Kherson"
+    },
+    "education": {
+      "heading": "Education",
+      "inProgress": "Master's degree in SE",
+      "value": "KSU"
     },
 
-    "mainSlide": {
-        "bigHeading": "Vladyslav Voichenko",
-        "smallHeading": "Web Developer"
+    "skills": {
+      "html": {
+        "name": "HTML",
+        "description": "With this technology i create site structure"
+      },
+      "css": {
+        "name": "CSS",
+        "description": "With this technology i create site appearance"
+      },
+      "js": {
+        "name": "JavaScript",
+        "description": "With this technology i create site logic and connect plugins"
+      },
+      "wordpress": {
+        "name": "Wordpress",
+        "description": "This technology will help you edit the site content"
+      }
     },
 
-    "aboutSlide": {
-        "heading": "About me",
-
-        "age": "Age",
-        "location": {
-            "heading": "Location",
-            "value": "Ukraine, Kherson"
-        },
-        "education": {
-            "heading": "Education",
-            "inProgress": "In progress",
-            "value": "KSU"
-        },
-
-        "skills": {
-            "html": {
-                "name": "HTML",
-                "description": "With this technology i create site structure"
-            },
-            "css": {
-                "name": "CSS",
-                "description": "With this technology i create site appearance"
-            },
-            "js": {
-                "name": "JavaScript",
-                "description": "With this technology i create site logic and connect plugins"
-            },
-            "wordpress": {
-                "name": "Wordpress",
-                "description": "This technology will help you edit the site content"
-            }
-        },
-
-        "story": {
-            "heading": "About me",
-            "content": {
-                "first": "Purposeful frontend developer.",
-                "second": "Getting better at website development every day because it directly affects the speed of work and the quality of the final products."
-            }
-        }
-    },
-
-    "portfolioSlide": {
-        "categories": {
-            "all": "All",
-            "landing": "Landing",
-            "multiPage": "Multi-page",
-            "store": "Store",
-            "forum": "Forum",
-            "portal": "Portal",
-            "singlePage": "Single Page",
-            "SPA": "Single Page Application"
-        },
-
-        "site": {
-            "validation": "Validation"
-        }
+    "story": {
+      "heading": "About me",
+      "content": {
+        "first": "Passionate frontend developer.",
+        "second": "Getting better at website development every day because it directly affects the speed of work and the quality of the final products."
+      }
     }
+  },
+
+  "portfolioSlide": {
+    "categories": {
+      "all": "All",
+      "landing": "Landing",
+      "multiPage": "Multi-page",
+      "store": "Store",
+      "forum": "Forum",
+      "portal": "Portal",
+      "singlePage": "Single Page",
+      "SPA": "Single Page Application"
+    },
+
+    "site": {
+      "validation": "Validation"
+    }
+  }
 }

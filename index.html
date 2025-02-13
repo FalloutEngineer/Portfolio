@@ -1,178 +1,295 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Ruston Martin</title>
-    <link rel="stylesheet" href="css/style.min.css">
+    <link rel="stylesheet" href="css/style.min.css" />
     <script src="https://cdn.jsdelivr.net/npm/pace-js@latest/pace.min.js"></script>
-    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
 
-    <meta http-equiv='cache-control' content='no-cache'> 
-    <meta http-equiv='expires' content='0'> 
-    <meta http-equiv='pragma' content='no-cache'>
+    <meta http-equiv="cache-control" content="no-cache" />
+    <meta http-equiv="expires" content="0" />
+    <meta http-equiv="pragma" content="no-cache" />
 
-    <meta name='freelancehunt' content='904a56c3ec7faa3'>
-</head>
+    <meta name="freelancehunt" content="904a56c3ec7faa3" />
+  </head>
 
-<body>
-
+  <body>
     <div class="wrapper">
-        <header class="header">
-    <div class="header__lang-switcher lang-switcher _animated">
-        <div class="lang-switcher__container">
+      <header class="header">
+        <div class="header__lang-switcher lang-switcher _animated">
+          <div class="lang-switcher__container">
             <select name="langSwitcher" id="langSwitcher">
-                <option value="en">En</option>
-                <option value="ru">Ru</option>
-                <option value="ua">Ua</option>
+              <option value="en">En</option>
+              <option value="ru">Ru</option>
+              <option value="ua">Ua</option>
             </select>
+          </div>
         </div>
-    </div>
-    <ul class="header__menu _animated">
-        <li id='main-slide-name' class="header__menu-item _current">Main</li>
-        <li id='about-slide-name' class="header__menu-item">About</li>
-        <li id='portfolio-slide-name' class="header__menu-item">Portfolio</li>
-    </ul>
-</header>
+        <ul class="header__menu _animated">
+          <li id="main-slide-name" class="header__menu-item _current">Main</li>
+          <li id="about-slide-name" class="header__menu-item">About</li>
+          <li id="portfolio-slide-name" class="header__menu-item">Portfolio</li>
+        </ul>
+      </header>
 
-        <div class="pace-background">
+      <div class="pace-background"></div>
 
-        </div>
+      <main class="page">
+        <div class="swiper-container">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide main-slide">
+              <div
+                class="main-slide__background swiper-slide__background"
+              ></div>
+              <div class="swiper-slide__content main-slide__content">
+                <h1 class="main-slide__heading _animated">
+                  <span class="main-slide__big-heading"
+                    >Vladyslav Voichenko</span
+                  >
+                  <span class="main-slide__small-heading">Web Developer</span>
+                </h1>
+                <ul class="main-slide__social _animated">
+                  <li>
+                    <a
+                      target="_blank"
+                      href="https://github.com/FalloutEngineer"
+                      id="link-Github"
+                      class="main-slide__social-link _icon-github"
+                    >
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      target="_blank"
+                      href="https://t.me/Fengineer"
+                      id="link-Telegram"
+                      class="main-slide__social-link _icon-telegram"
+                    >
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      target="_blank"
+                      href="https://www.linkedin.com/in/vladyslav-voichenko/"
+                      id="link-linkedin"
+                      class="main-slide__social-link"
+                    >
+                      Ln
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
 
-        <main class="page">
-            <div class="swiper-container">
-                <div class="swiper-wrapper">
-                  <div class="swiper-slide main-slide">
-                      <div class="main-slide__background swiper-slide__background">
-                      </div>
-                      <div class="swiper-slide__content main-slide__content">
-                          <h1 class="main-slide__heading _animated">
-                              <span class="main-slide__big-heading">Vladyslav Voichenko</span>
-                              <span class="main-slide__small-heading">Web Developer</span>
-                          </h1>
-                          <ul class="main-slide__social _animated">
-                            <li>
-                              <a target="_blank" href="https://github.com/FalloutEngineer" id="link-Github" class="main-slide__social-link _icon-github">
-
-                              </a>
-                            </li>
-                            <li>
-                                <a target="_blank" href="https://t.me/Fengineer" id="link-Telegram" class="main-slide__social-link _icon-telegram">
-
-                                </a>
-                            </li>
-                            <li>
-                                <a target="_blank" href="https://www.weblancer.net/users/RustonMartin/" id="link-Weblancer" class="main-slide__social-link">
-                                    W
-                                </a>
-                            </li>
-                          </ul>
-                      </div>
-                  </div>
-
-
-                  <div class="swiper-slide about-slide">
-                    <div class="about-slide__background swiper-slide__background">
-                    </div>
-                    <div class="swiper-slide__content about-slide__content">
-                        <div class="about-slide__content-container">
-                            <h2 class="about-slide__heading">Hello, my name is Vladyslav</h2>
-                            <div class="about-slide__short-info">
-                                <div class="about-slide__left-wrapper">
-                                    <div class="about-slide__bio">
-                                        <div class="about-slide__age about-slide__item">
-                                            <p class="about-slide__item-heading about-slide__age-heading">Age:</p>
-                                            <div class="about-slide__value about-slide__age-value">19</div>
-                                        </div>
-                                        <div class="about-slide__location about-slide__item">
-                                            <p class="about-slide__item-heading about-slide__location-heading">Location:</p>
-                                            <p class="about-slide__value about-slide__location-value">Ukraine, Kherson</p>
-                                        </div>
-                                        <div class="about-slide__education about-slide__item">
-                                            <p class="about-slide__item-heading about-slide__education-heading">Education:</p>
-                                            <p class="about-slide__value about-slide__education-value">In progress <a target="_blank" id="link-KSU" href="http://www.kspu.edu/">KSU</a></p>
-                                        </div>
-                                    </div>
-                                    <ul class="about-slide__skills">
-                                        <li class="about-slide__skill">
-                                            <span class="about-slide__skill-span _icon-html-five _html">HTML</span>
-                                            <p class="about-slide__skill-description _html">With this technology i create site structure</p>
-                                        </li>
-                                        <li class="about-slide__skill">
-                                            <span class="about-slide__skill-span _icon-css3 _css">CSS</span>
-                                            <p class="about-slide__skill-description _css">With this technology i create site appearance</p>
-                                        </li>
-                                        <li class="about-slide__skill">
-                                            <span class="about-slide__skill-span _icon-embed2 _js">JavaScript</span>
-                                            <p class="about-slide__skill-description _js">With this technology i create site logic, connect plugins</p>
-                                        </li>
-                                        <li class="about-slide__skill">
-                                            <span class="about-slide__skill-span _icon-wordpress _wordpress">Wordpress</span>
-                                            <p class="about-slide__skill-description _wordpress">This technology will help you edit the site content</p>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div class="about-slide__photo-wrapper">
-                                    <img src="img/about/photo.jpg" alt="" class="about-slide__photo">
-                                </div>
-                            </div>
-                            <div class="about-slide__story">
-                                <h3 class="about-slide__story-heading">About me</h3>
-                                <p class="about-slide__story-paragraph">
-                                    Purposeful frontend developer.
-                                </p>
-                                <p class="about-slide__story-paragraph">
-                                    Getting better at website development every day because it directly affects the speed of work and the quality of the final products.
-                                </p>
-                            </div>
+            <div class="swiper-slide about-slide">
+              <div
+                class="about-slide__background swiper-slide__background"
+              ></div>
+              <div class="swiper-slide__content about-slide__content">
+                <div class="about-slide__content-container">
+                  <h2 class="about-slide__heading">
+                    Hello, my name is Vladyslav
+                  </h2>
+                  <div class="about-slide__short-info">
+                    <div class="about-slide__left-wrapper">
+                      <div class="about-slide__bio">
+                        <div class="about-slide__age about-slide__item">
+                          <p
+                            class="about-slide__item-heading about-slide__age-heading"
+                          >
+                            Age:
+                          </p>
+                          <div
+                            class="about-slide__value about-slide__age-value"
+                          >
+                            22
+                          </div>
                         </div>
-                    </div>
-                  </div>
-                  <div class="swiper-slide portfolio-slide">
-                    <div class="portfolio-slide__background swiper-slide__background">
-                    </div>
-                    <div class="swiper-slide__content portfolio-slide__content">
-                        <div class="portfolio__container">
-                            <div class="portfolio__filter-buttons">
-                                <button data-filter='_all' class="portfolio__all-button portfolio-button">All</button>
-                                <button data-filter='_landing' class="portfolio__landing-button portfolio-button">Landing</button>
-                                <button data-filter='_multi-page' class="portfolio__multi-page-button portfolio-button">Multi-Page</button>
-                                <button data-filter='_store' class="portfolio__store-button portfolio-button">Store</button>
-                                <button data-filter='_single-page' class="portfolio__signle-page-button portfolio-button">Single page</button>
-                                <button data-filter='_forum' class="portfolio__forum-button portfolio-button">Forum</button>
-                                <button data-filter='_spa' class="portfolio__spa-button portfolio-button">Single Page Application</button>
-                                <button data-filter='_portal' class="portfolio__portal-button portfolio-button">Portal</button>
-                            </div>
-                            <div class="portfolio__filter">
-                                
-                            </div>
+                        <div class="about-slide__location about-slide__item">
+                          <p
+                            class="about-slide__item-heading about-slide__location-heading"
+                          >
+                            Location:
+                          </p>
+                          <p
+                            class="about-slide__value about-slide__location-value"
+                          >
+                            Ukraine, Kherson
+                          </p>
                         </div>
+                        <div class="about-slide__education about-slide__item">
+                          <p
+                            class="about-slide__item-heading about-slide__education-heading"
+                          >
+                            Education:
+                          </p>
+                          <p
+                            class="about-slide__value about-slide__education-value"
+                          >
+                            Masters in SE
+                            <a
+                              target="_blank"
+                              id="link-KSU"
+                              href="http://www.kspu.edu/"
+                              >KSU</a
+                            >
+                          </p>
+                        </div>
+                      </div>
+                      <ul class="about-slide__skills">
+                        <li class="about-slide__skill">
+                          <span
+                            class="about-slide__skill-span _icon-html-five _html"
+                            >HTML</span
+                          >
+                          <p class="about-slide__skill-description _html">
+                            With this technology i create site structure
+                          </p>
+                        </li>
+                        <li class="about-slide__skill">
+                          <span class="about-slide__skill-span _icon-css3 _css"
+                            >CSS</span
+                          >
+                          <p class="about-slide__skill-description _css">
+                            With this technology i create site appearance
+                          </p>
+                        </li>
+                        <li class="about-slide__skill">
+                          <span class="about-slide__skill-span _icon-embed2 _js"
+                            >JavaScript</span
+                          >
+                          <p class="about-slide__skill-description _js">
+                            With this technology i create site logic, connect
+                            plugins
+                          </p>
+                        </li>
+                        <li class="about-slide__skill">
+                          <span
+                            class="about-slide__skill-span _icon-wordpress _wordpress"
+                            >Wordpress</span
+                          >
+                          <p class="about-slide__skill-description _wordpress">
+                            This technology will help you edit the site content
+                          </p>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="about-slide__photo-wrapper">
+                      <img
+                        src="img/about/photo.jpg"
+                        alt=""
+                        class="about-slide__photo"
+                      />
                     </div>
                   </div>
-                </div>
-
-                <div class="swiper-controls _animated">
-                    <div class="swiper-prev">
-                        <img src="img/controls/arrow.png" alt="" class="swiper-control-image">
-                    </div>
-                    <div class="swiper-next">
-                        <img src="img/controls/arrow.png" alt="" class="swiper-control-image">
-                    </div>
+                  <div class="about-slide__story">
+                    <h3 class="about-slide__story-heading">About me</h3>
+                    <p class="about-slide__story-paragraph">
+                      Passionate frontend developer.
+                    </p>
+                    <p class="about-slide__story-paragraph">
+                      Getting better at website development every day because it
+                      directly affects the speed of work and the quality of the
+                      final products.
+                    </p>
+                  </div>
                 </div>
               </div>
-        </main>
-        
+            </div>
+            <div class="swiper-slide portfolio-slide">
+              <div
+                class="portfolio-slide__background swiper-slide__background"
+              ></div>
+              <div class="swiper-slide__content portfolio-slide__content">
+                <div class="portfolio__container">
+                  <div class="portfolio__filter-buttons">
+                    <button
+                      data-filter="_all"
+                      class="portfolio__all-button portfolio-button"
+                    >
+                      All
+                    </button>
+                    <button
+                      data-filter="_landing"
+                      class="portfolio__landing-button portfolio-button"
+                    >
+                      Landing
+                    </button>
+                    <button
+                      data-filter="_multi-page"
+                      class="portfolio__multi-page-button portfolio-button"
+                    >
+                      Multi-Page
+                    </button>
+                    <button
+                      data-filter="_store"
+                      class="portfolio__store-button portfolio-button"
+                    >
+                      Store
+                    </button>
+                    <button
+                      data-filter="_single-page"
+                      class="portfolio__signle-page-button portfolio-button"
+                    >
+                      Single page
+                    </button>
+                    <button
+                      data-filter="_forum"
+                      class="portfolio__forum-button portfolio-button"
+                    >
+                      Forum
+                    </button>
+                    <button
+                      data-filter="_spa"
+                      class="portfolio__spa-button portfolio-button"
+                    >
+                      Single Page Application
+                    </button>
+                    <button
+                      data-filter="_portal"
+                      class="portfolio__portal-button portfolio-button"
+                    >
+                      Portal
+                    </button>
+                  </div>
+                  <div class="portfolio__filter"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-controls _animated">
+            <div class="swiper-prev">
+              <img
+                src="img/controls/arrow.png"
+                alt=""
+                class="swiper-control-image"
+              />
+            </div>
+            <div class="swiper-next">
+              <img
+                src="img/controls/arrow.png"
+                alt=""
+                class="swiper-control-image"
+              />
+            </div>
+          </div>
+        </div>
+      </main>
     </div>
 
-    
     <script src="js/pace.js"></script>
-<script src="js/portfolio-filter.js"></script>
-<script src="js/content-filler.js"></script>
+    <script src="js/portfolio-filter.js"></script>
+    <script src="js/content-filler.js"></script>
 
-<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-<script src="js/slider.js"></script>
-<script src="js/animation.js"></script>
-
-</body>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="js/slider.js"></script>
+    <script src="js/animation.js"></script>
+  </body>
 </html>
